@@ -7,6 +7,7 @@
 !/subcompartment/
 !/models/
 !/examples/
+!/data/
 !/docs/
 !/tests/
 !/app.py
@@ -17,3 +18,4 @@ __pycache__/
 .venv*/
 outputs/
 .DS_Store
+*.partial

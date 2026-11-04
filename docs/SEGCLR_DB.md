@@ -26,6 +26,10 @@ The collection covers 2,335 cells and 12,130,814 labels, including
 separate soma class. The historical database table name `node_ground_truth`
 and the `get_node_ground_truth` compatibility alias do not imply manual truth.
 
+The complete filtered sample identities and training targets are now available
+as a portable [positive list](../data/README.md). Use it to select retained
+skeleton nodes from database results; soma centers use a separate namespace.
+
 **The final four-/six-class training targets are not registered as a node-label
 version.** They combine Ossify process labels, cell-type assignments, soma-center
 samples and spatial selection rules. The live registry contained only the

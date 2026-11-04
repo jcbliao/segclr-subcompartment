@@ -92,6 +92,15 @@ on the entire demo is not a held-out evaluation. For pretrained evaluation, use
 only samples whose fold matches the model's fold, and note the selection caveat
 below.
 
+## Complete filtered positive list
+
+[`data/filtered_samples.parquet`](data/filtered_samples.parquet) contains the exact
+**12,121,515 retained sample identities and training labels** from the six-class
+set. Its `in_four_class` flag selects the verified original four-class subset.
+This 22 MB file is included in the clone and contains no embeddings. See
+[data/README.md](data/README.md) for filtering by cell/fold and joining to
+`segclr_db` labels or embeddings without rerunning the spatial filters.
+
 ## Embedding compatibility and interpretation
 
 These are **classification heads**, not raw EM encoders. The included models
@@ -101,7 +110,7 @@ expect embeddings from:
 - Checkpoint: `checkpoint_e0_s100000`
 - Encoder checkpoint SHA-256: `826eebf68fdd47e979385c8f401825a8c9f4f2ea2c838794066f5b906a080897`
 
-The raw-image encoder and full training dataset are not included. New raw EM
+The raw-image encoder and full training embeddings are not included. New raw EM
 images require that matching encoder and its preprocessing to generate features.
 Do not mix embeddings from other SegCLR checkpoints, even if they also have 64
 features. The prediction CLI rejects conflicting embedding provenance when both
