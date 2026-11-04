@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "classes": [
+    "soma",
+    "dendrite",
+    "axon",
+    "astrocytic_process",
+    "microglial_process",
+    "oligodendrocytic_process"
+  ],
+  "n_cells": 2330,
+  "n_points": 12121515,
+  "class_counts": [
+    181546,
+    3547915,
+    8245375,
+    127658,
+    13067,
+    5954
+  ],
+  "versions": {
+    "cells": 16,
+    "node_manifest": 25012,
+    "node_embeddings": 509460
+  },
+  "code_hashes": {
+    "/orcd/home/002/jcbliao/rotation/segclr/subcompartment_classification/glia_subcompartment.py": "0b5efe430614abe1ce15269b2d180de442d7891cd403b8b7d89f7ce584585b0b",
+    "/orcd/home/002/jcbliao/rotation/segclr/subcompartment_classification/six_class_data.py": "d484baa74516cb8b9f847943a24df4b1f379a310b0c944ba47139d84ad5d1786",
+    "/orcd/home/002/jcbliao/rotation/segclr/subcompartment_classification/train_compartment_six.py": "b2bfbe5800143de609b73d94fbda59c777e614af1b7896dd1b299a2c148d8232",
+    "/orcd/home/002/jcbliao/rotation/segclr/gnn_classifier/gnn/resnet.py": "4a198f35fc2a7a5be571e03843fa649d0c72f3d17aa078738acc8e02e4cbd73b"
+  },
+  "checkpoint_sha256": "826eebf68fdd47e979385c8f401825a8c9f4f2ea2c838794066f5b906a080897",
+  "source_four_class_run": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/subcompartment_latest100k_geo10um_v1",
+  "source_six_class_run": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/subcompartment_latest100k_sixclass_geo10um_v1",
+  "excluded_root_id": "864691135587086972",
+  "excluded_class_counts": [
+    0,
+    0,
+    0,
+    0,
+    863,
+    0
+  ],
+  "excluded_original_fold": 0,
+  "preparation_script_sha256": "40faf973af6a6aa31584dd4e3e2a948d277efdffe517a4038a52f6200f994664",
+  "data_policy": "Exact source array symlinks except excluded cell; no feature regeneration"
+}

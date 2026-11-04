@@ -1,0 +1,83 @@
+{
+  "accuracy": 0.9980547028397861,
+  "balanced_accuracy": 0.9979460214477386,
+  "macro_f1": 0.99809118540739,
+  "cell_class_balanced_accuracy": 0.9976099252351318,
+  "cell_class_balanced_macro_f1": 0.9976117372592722,
+  "log_loss": 0.006315671838819981,
+  "confusion_matrix": [
+    [
+      36093,
+      4,
+      0,
+      0
+    ],
+    [
+      36,
+      706222,
+      2804,
+      5
+    ],
+    [
+      1,
+      1843,
+      1699972,
+      40
+    ],
+    [
+      0,
+      3,
+      75,
+      26046
+    ]
+  ],
+  "classification_report": {
+    "soma": {
+      "precision": 0.9989759202878494,
+      "recall": 0.9998891874671025,
+      "f1-score": 0.999432345244853,
+      "support": 36097.0
+    },
+    "dendrite": {
+      "precision": 0.9973872713509361,
+      "recall": 0.9959876852257967,
+      "f1-score": 0.9966869869504685,
+      "support": 709067.0
+    },
+    "axon": {
+      "precision": 0.9983093059815568,
+      "recall": 0.9988929733185417,
+      "f1-score": 0.9986010543638557,
+      "support": 1701856.0
+    },
+    "astrocytic_process": {
+      "precision": 0.9982752673335633,
+      "recall": 0.9970142397795131,
+      "f1-score": 0.9976443550703821,
+      "support": 26124.0
+    },
+    "accuracy": 0.9980547028397861,
+    "macro avg": {
+      "precision": 0.9982369412384764,
+      "recall": 0.9979460214477386,
+      "f1-score": 0.99809118540739,
+      "support": 2473144.0
+    },
+    "weighted avg": {
+      "precision": 0.9980543225360088,
+      "recall": 0.9980547028397861,
+      "f1-score": 0.9980543058752842,
+      "support": 2473144.0
+    }
+  },
+  "best_epoch": 37,
+  "selection_split": "held-out cell fold 3",
+  "selection_metric": "macro_f1",
+  "fold": 3,
+  "n_folds": 5,
+  "embedding_run_id": "resnet50_1280b_slab1280_50um_mac_partial_aug_2_style_bf16_100k__20261022_140504",
+  "embedding_checkpoint_id": "checkpoint_e0_s100000",
+  "embedding_checkpoint_sha256": "826eebf68fdd47e979385c8f401825a8c9f4f2ea2c838794066f5b906a080897",
+  "feature_plan": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/subcompartment_latest100k_geo10um_v1/plan.json",
+  "test_policy": "Match existing model: best macro F1 on held-out fold over 100 epochs. Fold metrics are used for checkpoint selection, not independent final evaluation."
+}

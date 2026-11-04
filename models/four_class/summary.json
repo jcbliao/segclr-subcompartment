@@ -1,0 +1,170 @@
+{
+  "complete": true,
+  "run_id": "resnet50_1280b_slab1280_50um_mac_partial_aug_2_style_bf16_100k__20261022_140504",
+  "checkpoint_sha256": "826eebf68fdd47e979385c8f401825a8c9f4f2ea2c838794066f5b906a080897",
+  "folds": [
+    {
+      "fold": 0,
+      "best_epoch": 50,
+      "macro_f1": 0.998163568605276,
+      "balanced_accuracy": 0.9982622718477459,
+      "per_class": {
+        "soma": {
+          "precision": 0.998504403700216,
+          "recall": 0.9996118227693672,
+          "f1-score": 0.9990578063514937,
+          "support": 36066.0
+        },
+        "dendrite": {
+          "precision": 0.996533192700476,
+          "recall": 0.9970364481512812,
+          "f1-score": 0.9967847569051358,
+          "support": 706922.0
+        },
+        "axon": {
+          "precision": 0.9987437840641767,
+          "recall": 0.9985120354881959,
+          "f1-score": 0.9986278963308876,
+          "support": 1650577.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9984790231948962,
+          "recall": 0.9978887809821391,
+          "f1-score": 0.9981838148335868,
+          "support": 23683.0
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "best_epoch": 60,
+      "macro_f1": 0.9981966832804946,
+      "balanced_accuracy": 0.998040547005943,
+      "per_class": {
+        "soma": {
+          "precision": 0.9991700556062744,
+          "recall": 0.9988937135271179,
+          "f1-score": 0.9990318654569595,
+          "support": 36157.0
+        },
+        "dendrite": {
+          "precision": 0.9969696242588141,
+          "recall": 0.9961428948173763,
+          "f1-score": 0.9965560880772362,
+          "support": 709081.0
+        },
+        "axon": {
+          "precision": 0.9983432686916409,
+          "recall": 0.9987115596166316,
+          "f1-score": 0.9985273801945765,
+          "support": 1656266.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9989289114566804,
+          "recall": 0.9984140200626462,
+          "f1-score": 0.9986713993932063,
+          "support": 25221.0
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "best_epoch": 49,
+      "macro_f1": 0.9981544482378936,
+      "balanced_accuracy": 0.998228303228607,
+      "per_class": {
+        "soma": {
+          "precision": 0.9984040682734183,
+          "recall": 0.9996479159331582,
+          "f1-score": 0.999025604936935,
+          "support": 36923.0
+        },
+        "dendrite": {
+          "precision": 0.9964203621177293,
+          "recall": 0.9971556589692298,
+          "f1-score": 0.9967878749425659,
+          "support": 716862.0
+        },
+        "axon": {
+          "precision": 0.9987447902028446,
+          "recall": 0.9984089218416669,
+          "f1-score": 0.9985768277801742,
+          "support": 1626570.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9987548109576636,
+          "recall": 0.9977007161703731,
+          "f1-score": 0.9982274852918992,
+          "support": 26530.0
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "best_epoch": 37,
+      "macro_f1": 0.99809118540739,
+      "balanced_accuracy": 0.9979460214477386,
+      "per_class": {
+        "soma": {
+          "precision": 0.9989759202878494,
+          "recall": 0.9998891874671025,
+          "f1-score": 0.999432345244853,
+          "support": 36097.0
+        },
+        "dendrite": {
+          "precision": 0.9973872713509361,
+          "recall": 0.9959876852257967,
+          "f1-score": 0.9966869869504685,
+          "support": 709067.0
+        },
+        "axon": {
+          "precision": 0.9983093059815568,
+          "recall": 0.9988929733185417,
+          "f1-score": 0.9986010543638557,
+          "support": 1701856.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9982752673335633,
+          "recall": 0.9970142397795131,
+          "f1-score": 0.9976443550703821,
+          "support": 26124.0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "best_epoch": 80,
+      "macro_f1": 0.9981249292137033,
+      "balanced_accuracy": 0.9981273694079997,
+      "per_class": {
+        "soma": {
+          "precision": 0.9993113706478625,
+          "recall": 0.9993388976117676,
+          "f1-score": 0.9993251339402537,
+          "support": 36303.0
+        },
+        "dendrite": {
+          "precision": 0.9965246638359607,
+          "recall": 0.9963101094502276,
+          "f1-score": 0.9964173750933196,
+          "support": 705983.0
+        },
+        "axon": {
+          "precision": 0.9983778956611814,
+          "recall": 0.9984696659723025,
+          "f1-score": 0.9984237787079705,
+          "support": 1610106.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9982760602229629,
+          "recall": 0.9983908045977011,
+          "f1-score": 0.9983334291132694,
+          "support": 26100.0
+        }
+      }
+    }
+  ],
+  "mean_macro_f1": 0.9981461629489514,
+  "precision_zero_division": 0,
+  "evaluation": "Cell-disjoint held-out folds; each fold also selects its best epoch, so scores are selection scores"
+}

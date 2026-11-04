@@ -1,0 +1,19 @@
+# This workspace also contains large research data and unrelated checkouts.
+/*
+!/.gitignore
+!/.github/
+!/README.md
+!/pyproject.toml
+!/subcompartment/
+!/models/
+!/examples/
+!/docs/
+!/tests/
+!/app.py
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv*/
+outputs/
+.DS_Store

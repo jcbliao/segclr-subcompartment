@@ -1,0 +1,289 @@
+{
+  "complete": true,
+  "classes": [
+    "soma",
+    "dendrite",
+    "axon",
+    "astrocytic_process",
+    "microglial_process",
+    "oligodendrocytic_process"
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "macro_f1": 0.9482843139655207,
+      "balanced_accuracy": 0.9304212036144143,
+      "best_epoch": 87,
+      "per_class": {
+        "soma": {
+          "precision": 0.9984768762115758,
+          "recall": 0.9996950036045028,
+          "f1-score": 0.9990855686100643,
+          "support": 36066.0
+        },
+        "dendrite": {
+          "precision": 0.9965669411134253,
+          "recall": 0.9970166439861824,
+          "f1-score": 0.9967917418289123,
+          "support": 706922.0
+        },
+        "axon": {
+          "precision": 0.9984841131789456,
+          "recall": 0.9984490272189664,
+          "f1-score": 0.9984665698907272,
+          "support": 1650577.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9988161677659394,
+          "recall": 0.9975087615589241,
+          "f1-score": 0.9981620365480088,
+          "support": 23683.0
+        },
+        "microglial_process": {
+          "precision": 0.9778817524457678,
+          "recall": 0.9696330662167861,
+          "f1-score": 0.9737399407030919,
+          "support": 2371.0
+        },
+        "oligodendrocytic_process": {
+          "precision": 0.8679245283018868,
+          "recall": 0.6202247191011236,
+          "f1-score": 0.7234600262123198,
+          "support": 890.0
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "macro_f1": 0.9652881313851506,
+      "balanced_accuracy": 0.9559677628366731,
+      "best_epoch": 73,
+      "per_class": {
+        "soma": {
+          "precision": 0.9990600204583783,
+          "recall": 0.9994468567635589,
+          "f1-score": 0.9992534011724367,
+          "support": 36157.0
+        },
+        "dendrite": {
+          "precision": 0.9967703339155857,
+          "recall": 0.9962937943619982,
+          "f1-score": 0.9965320071687369,
+          "support": 709081.0
+        },
+        "axon": {
+          "precision": 0.9981868104341696,
+          "recall": 0.9984779014964987,
+          "f1-score": 0.998332334746447,
+          "support": 1656266.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9971101698270061,
+          "recall": 0.9986915665516831,
+          "f1-score": 0.9979002416702983,
+          "support": 25221.0
+        },
+        "microglial_process": {
+          "precision": 0.9744680851063829,
+          "recall": 0.9744680851063829,
+          "f1-score": 0.9744680851063829,
+          "support": 3055.0
+        },
+        "oligodendrocytic_process": {
+          "precision": 0.8911290322580645,
+          "recall": 0.7684283727399166,
+          "f1-score": 0.8252427184466019,
+          "support": 1438.0
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "macro_f1": 0.9768604770140183,
+      "balanced_accuracy": 0.9743595729114826,
+      "best_epoch": 94,
+      "per_class": {
+        "soma": {
+          "precision": 0.9986737041548247,
+          "recall": 0.9992687484765593,
+          "f1-score": 0.9989711377050956,
+          "support": 36923.0
+        },
+        "dendrite": {
+          "precision": 0.997102533468809,
+          "recall": 0.9965823268634688,
+          "f1-score": 0.9968423622981128,
+          "support": 716862.0
+        },
+        "axon": {
+          "precision": 0.9983589831841873,
+          "recall": 0.9986474606072901,
+          "f1-score": 0.998503201059746,
+          "support": 1626570.0
+        },
+        "astrocytic_process": {
+          "precision": 0.998866470188166,
+          "recall": 0.9964568413117226,
+          "f1-score": 0.9976602007698694,
+          "support": 26530.0
+        },
+        "microglial_process": {
+          "precision": 0.9806295399515739,
+          "recall": 0.9669717469160366,
+          "f1-score": 0.9737527549589261,
+          "support": 2513.0
+        },
+        "oligodendrocytic_process": {
+          "precision": 0.9027538726333907,
+          "recall": 0.8882303132938189,
+          "f1-score": 0.8954332052923603,
+          "support": 1181.0
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "macro_f1": 0.9604251259152498,
+      "balanced_accuracy": 0.9506420170295798,
+      "best_epoch": 81,
+      "per_class": {
+        "soma": {
+          "precision": 0.9988652717812465,
+          "recall": 0.9998337812006538,
+          "f1-score": 0.9993492918356892,
+          "support": 36097.0
+        },
+        "dendrite": {
+          "precision": 0.9961830232597461,
+          "recall": 0.9971060562683075,
+          "f1-score": 0.9966443260494322,
+          "support": 709067.0
+        },
+        "axon": {
+          "precision": 0.9985429577663466,
+          "recall": 0.9982707115055562,
+          "f1-score": 0.9984068160768772,
+          "support": 1701856.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9977748791529195,
+          "recall": 0.9955596386464554,
+          "f1-score": 0.9966660279747078,
+          "support": 26124.0
+        },
+        "microglial_process": {
+          "precision": 0.9691384483497643,
+          "recall": 0.9745689655172414,
+          "f1-score": 0.971846120782291,
+          "support": 2320.0
+        },
+        "oligodendrocytic_process": {
+          "precision": 0.8717948717948718,
+          "recall": 0.7385129490392648,
+          "f1-score": 0.7996381727725012,
+          "support": 1197.0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "macro_f1": 0.9517881518457753,
+      "balanced_accuracy": 0.9403606367147543,
+      "best_epoch": 44,
+      "per_class": {
+        "soma": {
+          "precision": 0.9988711453744493,
+          "recall": 0.9993388976117676,
+          "f1-score": 0.9991049667460722,
+          "support": 36303.0
+        },
+        "dendrite": {
+          "precision": 0.9963812658629442,
+          "recall": 0.9964730028910045,
+          "f1-score": 0.9964271322655097,
+          "support": 705983.0
+        },
+        "axon": {
+          "precision": 0.9981908338063789,
+          "recall": 0.998208192504096,
+          "f1-score": 0.9981995130797705,
+          "support": 1610106.0
+        },
+        "astrocytic_process": {
+          "precision": 0.9948107448107448,
+          "recall": 0.998927203065134,
+          "f1-score": 0.996864724325151,
+          "support": 26100.0
+        },
+        "microglial_process": {
+          "precision": 0.9596066034422199,
+          "recall": 0.9729344729344729,
+          "f1-score": 0.9662245800176835,
+          "support": 2808.0
+        },
+        "oligodendrocytic_process": {
+          "precision": 0.851664984863774,
+          "recall": 0.6762820512820513,
+          "f1-score": 0.7539079946404645,
+          "support": 1248.0
+        }
+      }
+    }
+  ],
+  "mean_macro_f1": 0.9605292400251428,
+  "mean_balanced_accuracy": 0.9503502386213807,
+  "confusion_matrix": [
+    [
+      181458,
+      83,
+      4,
+      0,
+      1,
+      0
+    ],
+    [
+      213,
+      3536186,
+      11454,
+      21,
+      37,
+      4
+    ],
+    [
+      7,
+      11927,
+      8232266,
+      273,
+      307,
+      595
+    ],
+    [
+      0,
+      24,
+      280,
+      127328,
+      17,
+      9
+    ],
+    [
+      0,
+      18,
+      339,
+      10,
+      12699,
+      1
+    ],
+    [
+      0,
+      5,
+      1491,
+      21,
+      3,
+      4434
+    ]
+  ],
+  "precision_zero_division": 0,
+  "evaluation": "Each held-out cell fold also selects the best epoch. Scores are selection scores.",
+  "excluded_root_id": "864691135587086972",
+  "source_six_class_run": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/subcompartment_latest100k_sixclass_geo10um_v1"
+}

@@ -1,0 +1,317 @@
+{
+  "source_experiment": "subcompartment_latest100k_sixclass_geo10um_exclude_864691135587086972_v1",
+  "dataset_sha256": "63048781ba0b06ebaf86d66b2dba3d1dcc8cc4ae0624b2db2edf2411aadd2ae2",
+  "sampling_seed": 0,
+  "maximum_points_per_cell_and_source_file": 64,
+  "class_counts_by_fold": [
+    [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ],
+    [
+      128,
+      128,
+      128,
+      128,
+      128,
+      128
+    ]
+  ],
+  "n_samples": 3840,
+  "n_cells": 53,
+  "source_files": [
+    {
+      "file": "soma_cells/864691135359010904.npz",
+      "sha256": "69e18c083253ecf1b8937c4e7409739e546300f581ba1e942babe0ee05415d3d",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135702946683.npz",
+      "sha256": "b66178c7512aa7706c26b94d2bc75aec5f9c58130d370911c0a8a7658611de2d",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691135561699041.npz",
+      "sha256": "3bb019c6d9c4c5974bcdf7a7c51e62c0dac7d580d70f182c61d12e674a585a6d",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691135852558279.npz",
+      "sha256": "0ee130e405eceac58c4798626dca6d1b05a463f295064236db704f82df9860f2",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691137198844737.npz",
+      "sha256": "b1624896eca062daf3774db227f0d77e271c482eec30aa2f111874d18e05474e",
+      "rows": 128
+    },
+    {
+      "file": "soma_cells/864691136445215875.npz",
+      "sha256": "3a7b81dde3aff8cf13911207bb0d265e87d653e29d0f07877f0272fa60fc9729",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135888577417.npz",
+      "sha256": "4ecf750311232fbeb16ff2034262eb40c51e3c8eb65c65e190369ebd6bd663c1",
+      "rows": 128
+    },
+    {
+      "file": "soma_cells/864691135787242948.npz",
+      "sha256": "b84fbb8ba225ea6d072f1e0c4aefc431c4a5398a213a0354cf93d51099da277e",
+      "rows": 64
+    },
+    {
+      "file": "soma_cells/864691136314457149.npz",
+      "sha256": "876ff40291832d1e8eafc0fd5b64a4fb5a0885934c24cd73c1d99f6637060c60",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136093003700.npz",
+      "sha256": "de744a67e1227307dda6ca939b7bb0d2b9589b2d490d2e349509865fa0a1e856",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691135727925311.npz",
+      "sha256": "fb30a1077eda817ba4e4c89dcc5a4cc2670153ea070437a66e1693053a2f2ecb",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691135350717399.npz",
+      "sha256": "a8bc2e6e383e761a0c1323bca2d0bbe610d3cdffca04587543c9d0c09433ddd2",
+      "rows": 128
+    },
+    {
+      "file": "geodesic/cells/864691135387529301.npz",
+      "sha256": "4e3ec1bf9ad936721bce5cafdb84696b3b8f600d78887d15b858edb44ab6202e",
+      "rows": 128
+    },
+    {
+      "file": "soma_cells/864691135877825107.npz",
+      "sha256": "8086d38d2fc5cbee150d1766fdaf30513984037ed173ee66e50f4a3f5456d652",
+      "rows": 64
+    },
+    {
+      "file": "soma_cells/864691135566945559.npz",
+      "sha256": "6c34911ce6ce42c75dcb4cef9294b3983e96e78132016a7eaff9e178cada590f",
+      "rows": 64
+    },
+    {
+      "file": "soma_cells/864691136275894285.npz",
+      "sha256": "a8c92be03f820883b88fc2a7c2717dae6cab076d9cda91dbd2decf871c601ce1",
+      "rows": 63
+    },
+    {
+      "file": "geodesic/cells/864691135877951571.npz",
+      "sha256": "27b985a5142298615bffe74e15b4c94d58c5975a9852062f8a59e0a5c92af0d8",
+      "rows": 128
+    },
+    {
+      "file": "soma_cells/864691135569363948.npz",
+      "sha256": "aeda6077f840e7c4c65f8f1076e76a1c3dc6058b646f2e2aeed6ae7715da3053",
+      "rows": 59
+    },
+    {
+      "file": "soma_cells/864691135809954845.npz",
+      "sha256": "a6d22e0daea5e06547a605eea9c339746d85fc3638191d53ceec6ec0d36e42c8",
+      "rows": 1
+    },
+    {
+      "file": "soma_cells/864691135470787666.npz",
+      "sha256": "f3b0f435b68954d15cd759109bf643293ba2589d73e9df0b45912b50aca35796",
+      "rows": 5
+    },
+    {
+      "file": "soma_cells/864691134942595939.npz",
+      "sha256": "3841c9cb1684b51077d2e5503dfecae6c00ab3e8b099ec912fec7574ac52e7d5",
+      "rows": 64
+    },
+    {
+      "file": "soma_cells/864691137199828801.npz",
+      "sha256": "7b99916171af9babb322b51baf7a4108e2445d54e6202d9c623d5f63e4baac68",
+      "rows": 54
+    },
+    {
+      "file": "soma_cells/864691135577651230.npz",
+      "sha256": "c1b4b2899ac64fecef07c73c64e8f7bb0112ca90b43cdee56ccf6546e72aa289",
+      "rows": 10
+    },
+    {
+      "file": "geodesic/cells/864691136453344255.npz",
+      "sha256": "0d5bfab0ec444017268e54ff5b47ef072929cea80b1512ac8562d0e26efc3670",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135308927302.npz",
+      "sha256": "8458663a5002c968f9d1f18de653b7d04cece1df29821aa72bbc3fbc11a9eaa0",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135305496231.npz",
+      "sha256": "2b01ad5f390968696ed2801de2395f745cf65ddac8dace5354ab9d52eb5a950f",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135875764366.npz",
+      "sha256": "7816b57b301dcc7e9e0ac1cdb6a9bb8dedbe16ee709348a63617b808c6dfd249",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135850040926.npz",
+      "sha256": "452d27a0fce7f59d4ecf4fdcc6eb314f59ebb49e50c39409c49fd218f14cf082",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135732369081.npz",
+      "sha256": "a95a1698101d24a32de8eb677cc3e8a19a9e1d19493c3b6942cfa72f2ca05413",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136715774812.npz",
+      "sha256": "4aed2cb043d184aeb71145f674312f3c0f45b73f223a185dd402e7eca4c42f2c",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691134887239162.npz",
+      "sha256": "97557ed7bd4814c3d6ea67f204b7d4e29e2fa229d710e234b2050384fd2b9ba3",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135593082635.npz",
+      "sha256": "b9e9b15749b8f9a7535dd6c2e0cdfa982ba1614afc86f9a16c26546e0de0c8c1",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135325416604.npz",
+      "sha256": "823b49d5eedd5b2eb60b5bb1978aba82372734809bc4b42217c8f7ef3d1774ab",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135588675012.npz",
+      "sha256": "17663b1723c67ae0331546dc9977da984b2563bc92de8daefbf339ad518132b1",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135942024705.npz",
+      "sha256": "3876846d99b4e33f992854bd4c7351f516afc9579200eb77a99c5c4448870beb",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135409870281.npz",
+      "sha256": "b0758372b8a83b0f913f5e9ca53244308d3a6ad99c7b91319e141dadaeeaf4eb",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135954701347.npz",
+      "sha256": "9fe2e2a347c0332d058418dcd680a929cd79a9d5b9b593280ab4d4d1bfb901cc",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136579484948.npz",
+      "sha256": "a4a70be0fe6fbcd37a07d7ea4a0cdd81992cc0c3c8b49e1adc0e775a7e9f8ff0",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136086328195.npz",
+      "sha256": "5bf56c84e527c1a87851d5913e11bf8d7302ffa7f0dbd58e26e4fb509ff72140",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135891847561.npz",
+      "sha256": "9a605a7498708d250fd4663a4b36b3263d68e7bbd4b4958fe5137a14c8b0fd3a",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135494051472.npz",
+      "sha256": "dfd78f5f0a99221727fe6ecec62198fe84ba462d5be418d2cc045b3fdeb60eec",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135611748615.npz",
+      "sha256": "eff3227b3d83bba9b5657123f353dd3dea82a0d0acb07005bab39722547b81dd",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135943534196.npz",
+      "sha256": "cb32fd93baccac3ab209cddd9a1a2af01533cff92835e59c2afb65efff55326e",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136268671476.npz",
+      "sha256": "de7fd1a5be05b4e20e525aa8961ea07f8e9de5d8559a8bc0ab123c177e372191",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135619781519.npz",
+      "sha256": "c0b0ff6de12f33f7f464b8c326c1e953f6a51ae70109a23aae7656ed5fb9d3de",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135772065787.npz",
+      "sha256": "84b895a7b99b14d69b3bc31a657561cf890754a6329198986a3040c7a9507f54",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136058607320.npz",
+      "sha256": "0b117244dee5c922b150609a295ea065974679caee5655845a6c70e38f8fafb6",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136324937182.npz",
+      "sha256": "8f5709101bfd1f47986d20087e143aaa01f15e75a0de233f141678ff11cd970a",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135476145832.npz",
+      "sha256": "932cc4e42f30bb0131aee98f4c55dcf2b045f58944a61aada37b72a3a62f1766",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136043246934.npz",
+      "sha256": "cad867086c34e1428602ac955d8407896ba3789e7a29256715284ee35106aea0",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135544366632.npz",
+      "sha256": "26e9ae4f7b99d099060d75e79fe9c428ea5bba714a08f38f47e265aee46364b3",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691135908742552.npz",
+      "sha256": "45ae46f0e518cccaf822c93eabbcbf5d6602778ca00226088b6fbbc2bc1d4c3a",
+      "rows": 64
+    },
+    {
+      "file": "geodesic/cells/864691136723466749.npz",
+      "sha256": "5fa395c21878d59d236f06491988d01c20fa87a39fa0dbc6bdb0dc4018d38288",
+      "rows": 64
+    }
+  ]
+}

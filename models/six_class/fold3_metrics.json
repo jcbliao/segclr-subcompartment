@@ -1,0 +1,119 @@
+{
+  "accuracy": 0.9977837095993356,
+  "balanced_accuracy": 0.9506420170295798,
+  "macro_f1": 0.9604251259152498,
+  "cell_class_balanced_accuracy": 0.9406128849083285,
+  "cell_class_balanced_macro_f1": 0.9398475441427219,
+  "log_loss": 0.008627627044916153,
+  "confusion_matrix": [
+    [
+      36091,
+      5,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      41,
+      707015,
+      2003,
+      2,
+      6,
+      0
+    ],
+    [
+      0,
+      2699,
+      1698913,
+      54,
+      62,
+      128
+    ],
+    [
+      0,
+      2,
+      109,
+      26008,
+      3,
+      2
+    ],
+    [
+      0,
+      2,
+      55,
+      2,
+      2261,
+      0
+    ],
+    [
+      0,
+      1,
+      311,
+      0,
+      1,
+      884
+    ]
+  ],
+  "classification_report": {
+    "soma": {
+      "precision": 0.9988652717812465,
+      "recall": 0.9998337812006538,
+      "f1-score": 0.9993492918356892,
+      "support": 36097.0
+    },
+    "dendrite": {
+      "precision": 0.9961830232597461,
+      "recall": 0.9971060562683075,
+      "f1-score": 0.9966443260494322,
+      "support": 709067.0
+    },
+    "axon": {
+      "precision": 0.9985429577663466,
+      "recall": 0.9982707115055562,
+      "f1-score": 0.9984068160768772,
+      "support": 1701856.0
+    },
+    "astrocytic_process": {
+      "precision": 0.9977748791529195,
+      "recall": 0.9955596386464554,
+      "f1-score": 0.9966660279747078,
+      "support": 26124.0
+    },
+    "microglial_process": {
+      "precision": 0.9691384483497643,
+      "recall": 0.9745689655172414,
+      "f1-score": 0.971846120782291,
+      "support": 2320.0
+    },
+    "oligodendrocytic_process": {
+      "precision": 0.8717948717948718,
+      "recall": 0.7385129490392648,
+      "f1-score": 0.7996381727725012,
+      "support": 1197.0
+    },
+    "accuracy": 0.9977837095993356,
+    "macro avg": {
+      "precision": 0.9720499086841491,
+      "recall": 0.9506420170295798,
+      "f1-score": 0.9604251259152498,
+      "support": 2476661.0
+    },
+    "weighted avg": {
+      "precision": 0.997775102045177,
+      "recall": 0.9977837095993356,
+      "f1-score": 0.9977766425503735,
+      "support": 2476661.0
+    }
+  },
+  "best_epoch": 81,
+  "selection_split": "held-out cell fold 3",
+  "selection_metric": "macro_f1",
+  "fold": 3,
+  "n_folds": 5,
+  "test_policy": "Each held-out cell fold is evaluated every epoch and selects its best macro F1 checkpoint",
+  "embedding_run_id": "resnet50_1280b_slab1280_50um_mac_partial_aug_2_style_bf16_100k__20261022_140504",
+  "embedding_checkpoint_id": "checkpoint_e0_s100000",
+  "embedding_checkpoint_sha256": "826eebf68fdd47e979385c8f401825a8c9f4f2ea2c838794066f5b906a080897",
+  "fold_plan": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/subcompartment_latest100k_sixclass_geo10um_exclude_864691135587086972_v1/folds.json"
+}

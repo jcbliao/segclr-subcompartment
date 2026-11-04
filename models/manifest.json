@@ -1,0 +1,72 @@
+{
+  "four_class": {
+    "source_experiment": "subcompartment_latest100k_geo10um_v1",
+    "models": [
+      {
+        "file": "models/four_class/fold0.pt",
+        "sha256": "2f2666cc2e6cd4d825edb659758a1e26c7f34a56f054bf47464c1a5e9393396d",
+        "fold": 0,
+        "bytes": 570656
+      },
+      {
+        "file": "models/four_class/fold1.pt",
+        "sha256": "b0cf734032861b3db491b79ddf9be2f297fc6b987ea7f43f8bd3e9ba05a40288",
+        "fold": 1,
+        "bytes": 570656
+      },
+      {
+        "file": "models/four_class/fold2.pt",
+        "sha256": "8916386fbaed5bd8b76658435c5ec0cd3a7c207cf85ea5b63c1b446b33fa9e3f",
+        "fold": 2,
+        "bytes": 570656
+      },
+      {
+        "file": "models/four_class/fold3.pt",
+        "sha256": "b456cb8d52cd2d942e0a4928a4ffb0bd412eac05b878ed9f668bd841040c5d18",
+        "fold": 3,
+        "bytes": 570656
+      },
+      {
+        "file": "models/four_class/fold4.pt",
+        "sha256": "21c2dd669d67dd060ea26c906d55e5106e59fb091b8fc5d4bbd6e3bf47fe9714",
+        "fold": 4,
+        "bytes": 570656
+      }
+    ]
+  },
+  "six_class": {
+    "source_experiment": "subcompartment_latest100k_sixclass_geo10um_exclude_864691135587086972_v1",
+    "models": [
+      {
+        "file": "models/six_class/fold0.pt",
+        "sha256": "459c3284917f9c60830910310d6497d3d721e5dc34b52556217116b7d28df8d4",
+        "fold": 0,
+        "bytes": 571296
+      },
+      {
+        "file": "models/six_class/fold1.pt",
+        "sha256": "62471bad3c01bbdd9a448b6b5dccb836095cf174750abf38cb4d66e89f6e43fb",
+        "fold": 1,
+        "bytes": 571296
+      },
+      {
+        "file": "models/six_class/fold2.pt",
+        "sha256": "25f21e9c5c57356ca14037ed1f411caea73ccef2b28c0dfb9ca838b1886ac3ac",
+        "fold": 2,
+        "bytes": 571296
+      },
+      {
+        "file": "models/six_class/fold3.pt",
+        "sha256": "cc376d83340b1b060c83d14d2eb0071271a662c7670645f87a084e1dada356e7",
+        "fold": 3,
+        "bytes": 571296
+      },
+      {
+        "file": "models/six_class/fold4.pt",
+        "sha256": "caeeef0764a4d056ffd127b32b1041ad8231d692e7f424f094b0ff7c70c12d2a",
+        "fold": 4,
+        "bytes": 571296
+      }
+    ]
+  }
+}
