@@ -1,0 +1,16 @@
+{
+  "comparison_compact.csv": "0fe44ee6d786a1663cb93c64390d2d378b58c5c6474c74b9bf0f2aca0318a08d",
+  "cohort_comparison.csv": "eb736d74d3cfcaa298560bb9a1a69193a57334983b3e53a32f6b09116fea3849",
+  "pooled_scores.csv": "3f6e78774608618f3221b3d6570f63f0e8508c76a58e0446d02516705ee39903",
+  "casey_family_comparison.csv": "913b7f96a879b87c5698e576898a832b89ff7ab4cfd24a0091c9fc1868601685",
+  "unresolved_casey_comparison.csv": "45513724d1a3fcb449e3a2e081e6926cc328c956cfb533b827e957d6ad60bafb",
+  "excluded_cells.json": "d7aa9803791b8293ca5cd2ea280dc4fe6a4a4f00a4f488c6380aafd4beeefc93",
+  "final_validation.json": "4cf5f3cb1ebb43b641377c0c2d2e77d0a1fc7cb05906d0d544db55eb93cfced0",
+  "plan.json": "ca130bd474894251bbb901729f5bcc0b210961e42ddef470b03c4e3d5460a1d2",
+  "pooled_comparison.png": "9c8064730caf41777708cc8a505e7dd2c47717e68929a747aac44dfe5193e45a",
+  "pooled_comparison.pdf": "38a24a5582ecac5d65602b0eb44c6c2335d728d3a4d16e3f3604cbbceaa9c3fa",
+  "neuron_comparison.png": "b0efbf36923554aeb5ed2d4ab20d95cf878f1acd5ef6dd0300c859c69f6a1bf3",
+  "neuron_comparison.pdf": "78ecc44259328d5ec1755babc3598e068322a3782900274cb0a29234d5b18fc3",
+  "cell_scores.csv.gz": "6a3d5233f06277f694d9ac5ad7f83d1a6230e5986e695632d1271d7e5eb2e79e",
+  "README.md": "c3d637f9328b2119955cf3ecc67f03c14ad6189ed5b94277a027ae16e842a9a3"
+}

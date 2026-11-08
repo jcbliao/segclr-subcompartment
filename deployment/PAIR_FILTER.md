@@ -64,3 +64,8 @@ commands. Label extraction verifies score-file hashes and exact native-node
 coverage. CPU scoring workers claim neurons from a shared filesystem pool and
 write atomic completion receipts. `summarize` refuses to declare success while
 any selected neuron is missing.
+
+The full run completed for all 1,924 neurons with no unresolved errors. All
+173,160 per-neuron result rows and all pooled totals passed final checks.
+[Results, plots, and downloadable tables](../docs/historical_pair_filter/README.md)
+are included in the public repository.

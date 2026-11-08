@@ -1,0 +1,43 @@
+{
+  "source_scores": "/orcd/compute/sdorkenw/001/jcbliao/segclr_workflows/historical117_subcompartment_six_class_v1",
+  "source_plan_sha256": "c90eed2c10905bd3068bffc043d95b34cfda9c0d1985433cd46dcca0e7d954db",
+  "skeleton": "/orcd/scratch/orcd/013/jcbliao/segclr_pair_audit/v117_skeleton_v4_20261019",
+  "l2": "/orcd/scratch/orcd/013/jcbliao/segclr_pair_audit/v117_distance_uniform20_20261017",
+  "cells": 1924,
+  "excluded_neurons": 165,
+  "cells_sha256": "b9829e3a51f3e5f92b5db9dd3dfab26eef4b1d727bd6c19d96575aaab424698a",
+  "classes": [
+    "astrocytic_process",
+    "axon",
+    "dendrite",
+    "microglial_process",
+    "oligodendrocytic_process",
+    "soma"
+  ],
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "modes": [
+    "chunkedgraph",
+    "skeleton_matched_l2",
+    "skeleton_native_nodes"
+  ],
+  "policies": [
+    "all_pairs",
+    "uniform_distance",
+    "exponential_15um",
+    "exponential_30um",
+    "exponential_50um",
+    "exponential_100um"
+  ],
+  "threshold_nm": 150000,
+  "endpoint_filter": "Retain pairs with identical argmax class, independently per fold; retain all six classes.",
+  "weights": "Original all-root distance-bin weights fixed BEFORE filtering, including exponential policies.",
+  "aggregation": "Sum per-cell correct/incorrect exposures; cross-cell pairs can contribute to both cells.",
+  "membership": "Original reference-1718 supervoxel membership fractions; reference nonmembership is the existing error proxy.",
+  "missing_policy": "Same complete neuronal cohort for all geometries; missing skeletons are explicit exclusions."
+}

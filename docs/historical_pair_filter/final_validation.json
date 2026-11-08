@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "neurons": 1924,
+  "per_neuron_rows": 173160,
+  "cohort_rows": 90,
+  "all_original_baselines_reproduced": true,
+  "all_pooled_totals_reproduced": true,
+  "unique_neuron_geometry_policy_fold_keys": true,
+  "zero_missing_or_nonfinite_rates": true
+}

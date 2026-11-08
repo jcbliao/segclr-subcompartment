@@ -129,6 +129,13 @@ The Ossify axon/dendrite source labels are available through `segclr_db`. The
 complete four-/six-class training targets are not currently registered there.
 See [SEGCLR_DB.md](docs/SEGCLR_DB.md) for a verified query and full-dataset paths.
 
+All new historical-v117 embeddings have been classified with all five six-class
+folds. [Deployment details](deployment/README.md) describe the complete saved
+scores and resumable database publication. The completed
+[same-subcompartment pair comparison](docs/historical_pair_filter/README.md)
+includes pooled error rates, retention, plots, and per-neuron results for 1,924
+neurons across L2 and skeleton geometries.
+
 ## Python API and your own data
 
 ```python
