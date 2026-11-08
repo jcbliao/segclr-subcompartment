@@ -9,6 +9,7 @@
 !/examples/
 !/data/
 !/docs/
+!/deployment/
 !/tests/
 !/app.py
 __pycache__/
